@@ -188,7 +188,7 @@ def main(xml_dir=os.getcwd(), n_clusters=1, apix=1.00,
             dir = os.path.dirname(metadata_fn)
             base = os.path.basename(metadata_fn)
             root, _ = os.path.splitext(base)
-            if ftype == '.eer':
+            if ftype == 'eer':
                 ext = '_EER.eer'
             else:
                 ext = f"_Fractions.{ftype}"
